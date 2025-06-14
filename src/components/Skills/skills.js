@@ -45,6 +45,7 @@ function Skills() {
             </ul>
         </div>
       </div>
+
     </section>
   );
 }

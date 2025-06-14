@@ -1,6 +1,6 @@
 
 .about-section {
-  padding: 80px 20px; 
+  padding: 60px 20px; 
   background-color: #1a1a1a; 
   color: #ffffff; 
   text-align:left; 
@@ -11,16 +11,19 @@
   display: flex;
   position: relative;
   overflow: hidden;
-  overflow-y: hidden;
+  padding-bottom: 0px;
 }
+
 .about-section h2 {
   font-size: 2.8em; 
   margin-bottom: 30px;
   color: #49aee4;;
   display: flex;
   justify-content: center; 
+  text-decoration:underline;
+  text-decoration-color:pink;
+  text-underline-offset: 12px;
 }
-
 .about-section p {
   font-size: 1.2em; 
   line-height: 1.6;
@@ -40,6 +43,7 @@
  padding:100px 0px;
  flex-shrink: 0;
 }
+
 .about-image  {
 width: 20%; 
 height: 20%; 

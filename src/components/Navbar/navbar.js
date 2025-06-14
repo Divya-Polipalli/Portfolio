@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">PD</div>
+     <div class="navbar-brand">P<span>D</span></div>
       <ul className="navbar-nav">
         <li className={`nav-item ${isActive('/') ? 'active' : ''}`}>
           <Link to="/home">Home</Link>

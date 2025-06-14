@@ -5,14 +5,15 @@
   left: 0;         
   width: 100%;     
   z-index: 1000;   
-  background-color: transparent; 
+  background-color:transparent; 
   color: #ffffff; 
+  padding: 10px 0;
   padding: 20px 80px;
   display: flex;             
   justify-content:flex-start; 
   align-items: center;       
   gap: 300px;
-  box-shadow: none;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
@@ -22,7 +23,9 @@
   color: #ffffff;         
   text-decoration: none;  
 }
-
+.navbar-brand span{
+  color:darkorchid;
+}
 .navbar-nav {
   list-style: none; 
   margin: 0;        

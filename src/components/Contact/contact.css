@@ -8,14 +8,21 @@
   align-items: center;
   min-height: 100vh; 
   box-sizing: border-box;
+  padding-bottom: 10px;
 }
 
 .contact-section .section-title {
   font-size: 2.8em;
   margin-bottom: 5px;
   color:cadetblue; 
-  padding:20px;
+  padding:0px;
+   padding-top: 0px;
+   padding-bottom: 50px;
+   text-decoration:underline;
+   text-decoration-color: #9f60db;
+   text-underline-offset: 12px;
 }
+
 .contact-content-wrapper {
   display: flex; 
   flex-wrap: wrap; 
@@ -47,7 +54,7 @@
   font-size: 1em;
   line-height: 1.6;
   margin-bottom: 30px;
-  color: #e31e1e;
+  color:blue;
 }
 
 .contact-details-list {

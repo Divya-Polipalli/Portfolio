@@ -6,7 +6,7 @@ const projectData = [
     id: 1,
     image: '/images/portfolio-img.png',
     title: 'Portfolio',
-    description: 'It contains details of which projects I have worked on and which languages I am familiar with and my interests',
+    description: 'It contains details of which projects I have worked on and which languages I am familiar with and my interests.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'NodeJS', 'Reactjs'],
   },
 
@@ -22,7 +22,7 @@ const projectData = [
     id: 3,
     image: '/images/mad.jpg',
     title: 'Birthday Remainder App',
-    description: 'A mobile application to help users remember birthdays of their contacts, featuring notifications, contact integration, and easy date management',
+    description: 'A mobile application to help users remember birthdays of their contacts, featuring notifications, contact integration, and easy date management.',
     technologies: ['Android Studio'],
    }
 ];
